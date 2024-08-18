@@ -1,5 +1,13 @@
 const { JSDOM } = require('jsdom');
 
+async function crawlPage(currentURL) {
+	console.log(`Actively crawling: ${currentURL}`);
+
+	const resp = await fetch(currentURL);
+
+	console.log(await resp.text());
+}
+
 function getUrlFromSting(htmlBody, baseURL) {
 	const urls = [];
 	const dom = new JSDOM(htmlBody);
@@ -41,4 +49,5 @@ function normalizeURL(url) {
 module.exports = {
 	normalizeURL,
 	getUrlFromSting,
+	crawlPage,
 };
