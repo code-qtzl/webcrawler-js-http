@@ -7,7 +7,7 @@ git clone https://github.com/code-qtzl/webcrawler-js-http.git
 npm install
 ```
 
-### Dependencies: Jest, JSDOM
+#### Dependencies: [Jest](https://jestjs.io/), [JSDOM](https://github.com/jsdom/jsdom)
 
 ```
 npm install jest
