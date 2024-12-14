@@ -2,16 +2,22 @@
 
 Project for using Javascript to handle http web crawling
 
-clone the webcrawler-js-http
+```
+git clone https://github.com/code-qtzl/webcrawler-js-http.git
+npm install
+```
 
-`npm install`
+### Dependencies: Jest, JSDOM
 
-Install the dependencies: Jest, JSDOM
+```
+npm install jest
+npm install jsdom
+```
 
-`npm start 'site_url'`
+### Crawl a website
 
-site_url, will be the site you are trying to scrape.
+`npm start 'your_site_url'`
+
+### Test scripts
 
 `npm test`
-
-Testing use cases
