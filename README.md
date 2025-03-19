@@ -6,6 +6,16 @@ A fun learning project that uses Javascript to handle http web crawling
 
 -   **Node.js:** Ensure you have Node.js installed on your system. You can download it from [https://nodejs.org/](https://nodejs.org/).
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshots/npm-start.png" alt="Dark Mode" width="600"/>
+  <p><em>Crawl Mode - Crawling in Action</em></p>
+
+  <img src="screenshots/npm-test.png" alt="Light Mode" width="600"/>
+  <p><em>Jest Test - Passing Unit Test</em></p>
+</div>
+
 ## 🛠️ Installation
 
 1. Clone the repository:
